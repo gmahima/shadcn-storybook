@@ -6,7 +6,7 @@ import {
    
   export function Avatar() {
     return (
-      <AvatarRoot>
+      <AvatarRoot className="p-2 border border-border">
         <AvatarImage src="https://github.com/shadcn.png" alt="@shadcn" />
         <AvatarFallback>CN</AvatarFallback>
       </AvatarRoot>
